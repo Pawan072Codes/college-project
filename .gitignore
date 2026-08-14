@@ -1,0 +1,22 @@
+# Environment variables & secrets
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environment (agar banaya ho)
+venv/
+env/
+
+# Data files (bade CSV, GitHub pe zaroori nahi, size limit issue)
+data/*.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter checkpoints
+*-checkpoint.ipynb
